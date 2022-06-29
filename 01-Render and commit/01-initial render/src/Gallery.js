@@ -1,3 +1,4 @@
+import React from 'react'
 export default function Gallery() {
   return (
     <section>
@@ -6,7 +7,7 @@ export default function Gallery() {
       <Image />
       <Image />
     </section>
-  );
+  )
 }
 
 function Image() {
@@ -15,5 +16,5 @@ function Image() {
       src="https://i.imgur.com/ZF6s192.jpg"
       alt="'Floralis Genérica' by Eduardo Catalano: a gigantic metallic flower sculpture with reflective petals"
     />
-  );
+  )
 }

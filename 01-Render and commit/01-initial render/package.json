@@ -7,9 +7,9 @@
     "react-scripts": "^4.0.0"
   },
   "devDependencies": {
+    "eslint-plugin-prettier": "^4.1.0",
     "react-scripts": "1.0.0"
   },
-  "description": null,
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",

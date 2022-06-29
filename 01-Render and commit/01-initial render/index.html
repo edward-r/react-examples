@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="root"></div>
+</body>
+<!-- This setup is not suitable for production. -->
+<!-- Only use it in development! -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://cdn.skypack.dev/react",
+    "react-dom": "https://cdn.skypack.dev/react-dom"
+  }
+}
+</script>
+<script type="text/babel" data-type="module">
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+
+let Root = function App() {
+  return <h1>Hello World</h1>
+}
+
+
+ReactDOM.render(
+  <Root />,
+  document.getElementById('root')
+);
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+
+</style>
+</html>
